@@ -1,10 +1,10 @@
-displayName: Provider Plugin Demo
+displayName: S3 Provider Plugin
 type: provider
 iconPath: .assets/icon.png
 
-import: github.com/traefik/pluginproviderdemo
+import: github.com/hanseltime/traefik-s3provider
 
-summary: '[Demo] Simple Provider Plugin'
+summary: 'Aws-sdk provider to access s3 compatible object storage on an interval'
 
 testData:
   pollInterval: 5s
